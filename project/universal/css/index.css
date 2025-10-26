@@ -1,5 +1,5 @@
 .wrap {
-    width: 100%;
+    width: 1920px;
     min-width: 1200px;
     min-width: 320px;
 }
@@ -799,12 +799,13 @@ footer {
 @media (max-width: 767px) {
   
     .wrap {
+        max-width: 100%;
         min-width: 320px; 
     }
 
     .section-box {
         width: 100%;
-        padding: 5rem 2rem;
+        padding: 32px 16px;
     }
 
     .section-header {
@@ -1019,15 +1020,20 @@ footer {
     }
 
     .q-menu-item {
-        width: 23%;
+        width: 22%;
         height: auto;
         padding: 32px 16px;
         border-radius: 30px;
         margin: 0;
     }
     
+    .q-menu-item img {
+        width: 32px;
+        height: auto;
+    }
+
     .q-menu .contents-title {
-        font-size: 24px;
+        font-size: 16px;
     }
 
 
