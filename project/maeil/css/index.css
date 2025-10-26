@@ -1,0 +1,272 @@
+body {
+        background: yellowgreen;
+}
+
+.wrap {
+    width: 1920px;
+}
+
+.section-box {
+    width: 100%;
+    padding: 120px 152px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1920px;
+    padding: 120px 152px;
+    box-sizing: border-box;
+    background: olive;
+}
+
+/*header*/
+
+header {
+    width: 1920px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 99999;
+}
+
+.header-wrap {
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+}
+
+h1 {
+    width: 96px;
+    height: 80px;
+    align-content: center;
+}
+
+.gnb-left, .gnb-right {
+    width: 376px;
+    line-height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.gnb-left li, .gnb-right li{
+    width: 160px;
+    height: 80px;
+}
+
+.gnb-left li a, .gnb-right li a {
+    color: #000;
+}
+
+
+.dp2 {
+    width: 160px;
+    background: #fff;
+    padding-bottom: 8px;
+    display: none;
+
+}
+
+.dp2 li {
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.dp2 li a {
+    color: #29518D;
+}
+
+.gnb-sidemenu {
+    width: 144px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    justify-content: space-between;
+    right: 4%;
+    flex-wrap: wrap;
+}
+
+.gnb-icon {
+    width: 40px;
+    height: auto;
+    filter: invert(30%) sepia(26%) saturate(1415%) hue-rotate(177deg) brightness(90%) contrast(92%);
+}
+
+
+/* main banner */
+
+.container--visual {
+    padding: 0;
+}
+
+.main-visual {
+    width: 1920px;
+    height: 920px;
+    overflow: hidden;   
+}
+
+.main-visual-slide{
+    position: relative;
+}
+
+.banner-contetns {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.banner-text-box {
+    height: 512px;
+    z-index: 9999;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 55%;
+}
+
+.date {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.more-view {
+    width: 138px;
+    height: 48px;
+    font-size: 24px;
+    margin-top: 48px;
+    line-height: 48px;
+    border-radius: 90px;
+    padding: 0 24px;
+    border: solid 2px;
+}
+
+
+.slide-1 h2 {
+    position: absolute;
+    top: 248px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slide-2 .banner-text-box h2 {
+    color: #06378A;
+}
+
+.slide-2 .banner-text-box .visual-sub-title {
+    font-weight: 600;
+    color: #843900;
+}
+
+.slide-2 .description span span {
+    color: #00CB49;
+    font-weight: 600;
+}
+
+
+.slide-3 .banner-text-box h2 span {
+    font-size: 104px;
+}
+
+.slide-3 .banner-text-box h2 span span {
+    color: #F8554E;
+}
+    
+.slide-3 .description span span {
+    font-weight: 600;
+    color: #F85551;
+}
+
+
+/* event */
+
+.container--maeil-best {
+    text-align: center;
+}
+
+.best-card-wrap {
+    width: 1616px;
+    margin-top: 88px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: orange;
+}
+.best-card-contents {
+    width: 376px;
+    height: 544px;
+    text-align: center;
+    border-radius: 30px;
+    border: solid 2px #f2f2f2;
+    padding: 64px 40px;
+    box-sizing: border-box;
+    background: gray;
+}
+
+.best-img {
+    width: 296px;
+    height: 296px;
+    margin-bottom: 40px;
+    background: #00CB49;
+}
+
+.best-logo {
+    width: 168px;
+    height: 80px;
+    background: #29518D;
+}
+
+/* event */
+
+.container--event {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.event-wrap {
+    width: 1594px;
+    height: 776px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    background: orange;
+      
+}
+
+.container--event h3 {
+    margin-right: 30px;
+}
+
+.event-contents {
+    width: 1024px;
+    height: 776px;
+    background: #f2f2f2;
+}
+
+.event-img {
+    width: 1024px;
+    height: 540px;
+    border-radius: 30px;
+    background: gold;
+}
